@@ -1,0 +1,39 @@
+@media screen and (min-width: 1024px) { 
+    
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row;
+    }
+    .noti-ppal {
+        width: 32%;
+        border: 0px;
+    }
+    .tit-noti {
+        font-size: 25px;
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .link-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .link-nav a {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 20px;
+    }
+    .hamburguer {
+        display: none;
+    }
+
+    .noti-secu {
+        margin: 10px;
+    }
+    
+}
