@@ -1,8 +1,7 @@
 .noti-ppal {
-    
-    background-color: blue;
-    width: 300px;
-    height: 75px;
+    background-color: green;
+    width: 350px;
+    height: 450px;
     margin-top: 10px;
 }
 .noti-secu {
@@ -15,7 +14,11 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+}
+.img-noti {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
 }
 
 
@@ -24,4 +27,15 @@ body {
 }
 header {
     background-color: gray;
+}
+
+.hidden {
+    /*display: none;*/
+}
+.tit-noti {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 25px;
 }
