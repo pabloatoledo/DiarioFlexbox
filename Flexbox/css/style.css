@@ -36,6 +36,14 @@
     max-height: 30px;
     margin: 20px;
 }
+.red-soc {
+    display: flex;
+    justify-content: space-around;
+}
+.red-soc img {
+    max-width: 30px;
+    max-height: 30px;
+}
 
 /* -------------------------------- ESTILOS ------------------------------------------ */
 
@@ -51,6 +59,11 @@ a {
 h1 {
     text-align: center;
     font-size: 60px;
+    color: gray
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
     color: gray
 }
 body {
