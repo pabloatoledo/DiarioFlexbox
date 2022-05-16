@@ -1,0 +1,27 @@
+.noti-ppal {
+    
+    background-color: blue;
+    width: 300px;
+    height: 75px;
+    margin-top: 10px;
+}
+.noti-secu {
+    background-color: red;
+    width: 250px;
+    height: 75px;
+    margin-top: 10px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+body {
+    background-color: lightgrey;
+}
+header {
+    background-color: gray;
+}
