@@ -87,7 +87,7 @@ a {
 h1 {
     text-align: center;
     font-size: 60px;
-    color: gray
+    color: gray;
 }
 h3 {
     text-align: center;
@@ -97,7 +97,9 @@ h3 {
 body {
     background-color: lightgrey;
 }
-
+footer {
+    border-top: 1px solid;
+}
 a:hover {
     color: red;
 }
@@ -113,15 +115,4 @@ a:hover {
 .fec-hor {
     color: rgb(160, 160, 160);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.suscr {
-    background-color: #f44336;
-    color: white;
-    padding: 20px 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-}
-.suscr a:hover, a:active {
-    background-color: red;
 }

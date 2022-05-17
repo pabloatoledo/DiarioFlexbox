@@ -1,0 +1,48 @@
+button {
+    font-size: 15px;
+    width: 200px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+input {
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+.suscrib {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.form-susc {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    font-size: 20px;
+    width: 60%;
+}
+.enviar {
+    margin-top: 20px;
+    height: 50px;
+    font-size: 25px;
+    background-color: gray;
+}
+/*------------------------ESTILOS--------------------------------------*/
+
+
+.suscri {
+    background-color: #f44336;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: px;
+}
+.suscri a:hover, a:active {
+    background-color: red;
+}
+
+
