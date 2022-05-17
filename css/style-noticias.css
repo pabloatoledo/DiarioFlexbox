@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+figcaption {
+    font-weight: 100;
+    color: gray;
+    border-left: 1px solid;
+    padding-left: 15px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+main, h1 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.noticia {
+    display: flex;
+    flex-flow: column;
+    margin: 0 20px 0 20px;
+}

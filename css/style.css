@@ -1,0 +1,126 @@
+h1 {
+    margin-block-end: 0px
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+}
+
+.noti-ppal {
+    width: 100%;
+    margin: 30px 0;
+}
+.noti-secu {
+    min-height: 100px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-noti {
+    display: flex;
+    margin: 25px auto;
+    width: 95%;
+}
+.tit-noti {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 25px;
+}
+.desc-noti {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(50, 50, 50);
+}
+.hidden {
+    display: none;
+}
+.hamburguer {
+    max-width: 30px;
+    max-height: 30px;
+}
+.fec-hor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.red-soc {
+    display: flex;
+    justify-content: space-around;
+}
+.red-soc img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-bottom: 15px;
+}
+.suscr {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.pub-fija {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 70%;
+}
+
+/* -------------------------------- ESTILOS ------------------------------------------ */
+
+/*---------- Etiquetas ----------------*/
+nav {
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: gray;
+    font-weight: 700;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: gray
+}
+body {
+    background-color: lightgrey;
+}
+footer {
+    border-top: 1px solid;
+}
+a:hover {
+    color: red;
+}
+
+/*--------------Clases------------------*/
+
+.noti-ppal {
+    background-color: rgb(200, 200, 200);
+}
+.noti-secu {
+    background-color: rgb(220, 220, 220);
+}
+.fec-hor {
+    color: rgb(160, 160, 160);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.diario {
+    text-align: center;
+    font-size: 60px;
+    color: gray;
+    font-weight: 700;
+    margin: 0;
+}
