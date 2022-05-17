@@ -30,19 +30,6 @@ input {
     font-size: 25px;
     background-color: gray;
 }
-/*------------------------ESTILOS--------------------------------------*/
 
-
-.suscri {
-    background-color: #f44336;
-    color: white;
-    padding: 2px 5px;
-    text-align: center;
-    text-decoration: none;
-    font-size: px;
-}
-.suscri a:hover, a:active {
-    background-color: red;
-}
 
 
