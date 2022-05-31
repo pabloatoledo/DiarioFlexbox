@@ -31,5 +31,9 @@ input {
     background-color: gray;
 }
 
+.hidNom, .hidApe, .hidMail, .hidContra, .hidTel, .hidDir {
+    display: none;
+}
+
 
 
