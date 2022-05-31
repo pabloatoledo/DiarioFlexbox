@@ -13,6 +13,7 @@ window.onload = function() {
     var errTel = document.getElementById("errTel")
     var direccion = document.getElementById("direccion")
     var errDir = document.getElementById("errDir")
+    var btn = document.getElementById("enviar")
 
     nombre.addEventListener("blur", valLongNom)
     nombre.addEventListener("focus", remErrNom)
@@ -26,6 +27,7 @@ window.onload = function() {
     telefono.addEventListener("focus", remErrTel)
     direccion.addEventListener("blur", valDir)
     direccion.addEventListener("focus", remErrDir)
+    btn.addEventListener("click",enviar)
 
 
     //manejo mensajes de error
@@ -135,5 +137,14 @@ window.onload = function() {
                 } 
             }
         }
+    }
+
+    function enviar () {
+        valLongNom()
+        valLongApe()
+        valEmail()
+        valContra()
+        valTel()
+        valDir()
     }
 }
